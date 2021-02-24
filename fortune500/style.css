@@ -9,7 +9,7 @@ body{
 	background-color:#cc0000;
 	flex-direction: row;
 	flex-wrap:nowrap;
-	justify-content: flex-start;
+	text-align: center;
 	height: 100px;
 }
 a{
