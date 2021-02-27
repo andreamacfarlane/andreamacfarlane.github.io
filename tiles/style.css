@@ -1,0 +1,71 @@
+body{
+	margin:0;
+	padding:0;
+  background-color: white;
+
+}
+
+.outer{
+  text-align: center;
+}
+
+.page{
+	position:relative;
+	margin-top:0px;
+	background-color: #FFF;
+  width: 100%;
+	max-width: 1200px;
+  display: inline-block;
+	opacity: .6;
+  text-align: left;
+	height: 100%;
+}
+.navbar{
+	background-color: #cc0000;
+	height: 100px;
+	width: 100%;
+	text-align:left;
+	position: sticky;
+	top: 0px
+}
+.header{
+	text-align: center;
+	text-size: 50px;
+	padding-top: 25px;
+	text-color: white;
+}
+.logo{
+	width:90px;
+	height: 90px;
+	padding-top: 5px;
+}
+.tile{
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 400px;
+	width: 100%;
+	position: center;
+	
+}
+.tile1{
+	background-image: url("img/tile1.jpg");
+	
+}
+.tile2{
+	background-image: url("img/tile2.jpg");}
+.tile3{
+	background-image: url("img/tile3.jpg");}
+.tile4{
+	background-image: url("img/tile4.jpg");}
+.tile5{
+	background-image: url("img/tile5.jpg");}
+.tile6{
+	background-image: url("img/tile6.jpg");}
+
+.text{
+	text-align: center;
+	padding-top: 200px;
+	font-size: 30px;
+
+}
+
