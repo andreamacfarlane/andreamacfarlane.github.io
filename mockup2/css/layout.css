@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* Layout Document */
+body{
+	font-family: sans-serif;
+}
+
+.outer{
+	text-align: center;
+}
+.navbar{
+	height: 100px;
+	width: 100%;
+	background-color: #CC0000;
+	text-align: left;
+	
+}
+.logo{
+	height: 80px;
+	padding: 10px;
+}
+
+.page{
+	width: 100%;
+	max-width: 1600px;
+	display: inline-block;
+	font-size: 30px;
+	color: white;
+}
+a{
+  color:white;
+  font-size:20px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right:60px;
+}
+
+a:hover {
+  text-decoration: underline;
+ }
+  a:active {
+  text-decoration: underline;
+}
+
+/*ROOM COMPONENTS SECTION*/
+.roomcomp_section{
+	width: 50%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border: 2px solid #CC0000;
+	overflow:auto;
+}
+.roomcomp_section:hover{
+	transform: scale(1.25);
+}
+.roomcomp_img{
+	width: 100%;
+	}
+.roomcomp_title{
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #CC0000;	
+}
+.roomcomp_content{
+	font-size: 15px;
+	color: black;
+}
+.roomcomp_buybutton{
+	font-size: 15px;
+	font-decoration: underline;
+	color: #CC0000;
+}
+/*HERO SECTION*/
+.herosection{
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border: 2px solid #CC0000;
+	overflow:auto;
+}
+.hero_img{
+	width: 100%;
+}
+.hero_headline{
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	color: #CC0000;
+}
+.hero_content{
+	font-size: 30px;
+	font-weight:100;
+	text-align: center;
+	color:black;
+}
+
+/*CATEGORIES*/
+.categories_section{
+	width: 75%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border: 1px solid;
+	overflow:auto;
+}
+.categories_img{
+	width:100%;
+	}
+.categories_title{
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #CC0000;	
+}
+.categories_title:hover{
+	animation-fill-mode: forwards;
+	animation-name: changescale;
+	animation-duration:.5s;
+	animation-timing-function: ease-in;
+}
+@keyframes changescale{
+	from{transform: scale(1,1)}
+	to{transform: scale(1.25,1.25)}
+}
+.categories_button{
+	font-size: 20px;
+	font-decoration: underline;
+	color: #CC0000;
+}
+/*MORE TOOLS*/
+.moretools_section{
+	width: 25%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border: 1px solid;
+	overflow:auto;
+}
+.moretools_img{
+	width:50%;
+	}
+.moretools_title{
+	font-size: 20px;
+	text-transform: uppercase;
+	text-decoration: underline;
+	font-weight: bold;
+	color: #CC0000;	
+}
+
+/*Photos*/
+.photos_section{
+	width: 25%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border: 1px solid;
+	overflow:auto;
+}
+.photos_img{
+	width:100%;
+}.photos_content{
+	font-size: 15px;
+}
+.photos_title{
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #CC0000;	
+}
