@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Transitions</title>
+
+   
+
+   <style>
+
+
+   	body{
+   		font-family: sans-serif;
+   		font-size:60px;
+   		color:mediumpurple;
+		text-align: center;
+		background-color: lavender;
+   	}
+
+   	.cardholder{
+        text-align: left;
+
+   	}
+      
+    .card{
+    	position: relative;
+       display: inline-block;
+		-webkit-filter:blur: (5px);
+		filter: blur(5px);
+    }
+
+    .card img{
+      width:100%;
+      height:auto;
+
+    }
+
+
+    .center {
+
+     padding: 60%;
+     text-align: center;
+    }
+
+
+
+    .card:hover{
+		
+    	-webkit-filter:blur: (0px);
+		filter: blur(0px);
+		transform: translate(900px, 0px);
+		transition: 2s;
+
+
+    }
+
+    .card_text{
+    	margin:0;
+    }
+
+
+
+   </style>
+
+</head>
+<body>
+
+
+<div class="body">
+
+	<div class="cardholder">
+       <div class="card">
+     
+       	  <img src="img/dog.png" alt="dog">
+       </div>
+	</div>
+	Go Go Go!
+	</div>
+
+</body>
+</html>
